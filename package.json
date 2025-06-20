@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "edgeone": "^1.0.25"，
     "vitepress": "^1.6.3"
   },
   "scripts": {
