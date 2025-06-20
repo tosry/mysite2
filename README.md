@@ -36,6 +36,9 @@ EDGEONE_PAGES_API_TOKEN: 这里冒号后面全部替换成API token,一件复制
 ![alt text](img/image-5.png)
 
 在回到你fork的这个仓库，点击 .cnb.yml文件，粘贴替换刚才复制的网址到指定位置。
+
 并更改你pages项目的名字
+
 .cnb.yml文件里就这2处要改
+
 之后保存提交即可。
