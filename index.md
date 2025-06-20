@@ -35,11 +35,7 @@ features:
     link: /about
     linkText: 了解更多
 ---
-## 部署到EdgeOne-Pages流程
-::: danger 步骤 
-1:将本仓库代码克隆到自己仓库
-2:在EdgeOne-Pages创建项目绑定到此仓库
-
+## VitePres演示站点
+::: danger 演示站点 
+演示内容
 :::
-
-![alt text](/image.png)
