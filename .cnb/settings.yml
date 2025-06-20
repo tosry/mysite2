@@ -1,0 +1,9 @@
+workspace:
+  launch:
+    button:
+      name: 1秒Fork,2秒上手,3秒上头🚀
+      description: 1秒Fork,2秒上手,3秒上头
+      hoverImage: &hover_gif .cnb/logo.gif
+    disabled: false
+    autoOpenWebIDE: true
+    hoverImage: *hover_gif  # 引用锚点
