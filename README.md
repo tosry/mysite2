@@ -43,4 +43,4 @@ EDGEONE_PAGES_API_TOKEN: 这里冒号后面全部替换成API token,一件复制
 
 之后保存提交即可。
 
-每次有文件修改都会都会自动提交部署到pages
+每次有文件修改都会自动提交部署到pages
