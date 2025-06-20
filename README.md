@@ -42,3 +42,5 @@ EDGEONE_PAGES_API_TOKEN: 这里冒号后面全部替换成API token,一件复制
 .cnb.yml文件里就这2处要改
 
 之后保存提交即可。
+
+每次有文件修改都会都会自动提交部署到pages
