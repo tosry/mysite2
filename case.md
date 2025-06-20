@@ -7,7 +7,7 @@ hero:
   tagline: 暂无案例
 
   image:
-    src: /logo.svg
+    src: /groups.svg
     alt: 案例鉴赏
 
   actions:
