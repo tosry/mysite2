@@ -10,7 +10,7 @@ workspace:
       name: 1秒Fork,2秒上手,3秒上头
       # 按钮描述
       # 如果值为 null，则不显示默认描述
-      description: 点击此按钮启动云原生开发环境
+      description: 1秒Fork,2秒上手,3秒上头
       # 鼠标悬浮在按钮上显示的图片（只能用仓库中当前分支的图片，填写相对仓库根目录的路径，如 .cnb/logo.svg）
       # 图片最大 10MB
       hoverImage: .cnb/logo.svg
