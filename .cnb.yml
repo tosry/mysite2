@@ -1,7 +1,7 @@
 main:
   push:
     - runner:
-        cpus: 8
+        cpus: 64
       # 下面的网址替换成你创建的密码文件envs.yml的地址
       imports: https://cnb.cool/w3c/env/-/blob/main/envs.yml
       stages:
