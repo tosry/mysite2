@@ -8,18 +8,18 @@
 
 创建的时候选择直接上传的方式
 随便选一个示例把项目创建了就行如图
+
 ![alt text](img/image-1.png)
 
 ## 第三步,获取API token
 在pages里面创建API Token
 创建后复制即可。
-![alt text](img/image-2.png)
 
+![alt text](img/image-2.png)
 
 ## 之后在cnb中新建一个密码仓库
 
 ![alt text](img/image-3.png)
-
 
 在密码仓库里增加一个文件，此文件用来存pages里面创建的API Token
 文件后缀是.yml名字随意,比如是：'envs.yml'
@@ -32,12 +32,9 @@ EDGEONE_PAGES_API_TOKEN: 这里冒号后面全部替换成API token,一件复制
 ![alt text](img/image-4.png)
 
 保存完之后复制这个文件envs.yml的地址
+
 ![alt text](img/image-5.png)
 
 在回到你fork的这个仓库，点击 .cnb.yml文件，粘贴刚才复制的网址。
-
-![alt text](assets/image4.png)
-
-![alt text](assets/image5.png)
 
 之后保存提交即可。
