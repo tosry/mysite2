@@ -3,7 +3,7 @@
 # 直接看步骤
 # 1,第一步Fork我这个仓库直接就能用，根据以下的步骤来操作，非常简单只需几秒。
 
-## 第二步,创建一个page项目:
+## 第二步,创建一个pages项目:
 点这里新建 https://console.tencentcloud.com/edgeone/pages
 
 创建的时候选择直接上传的方式
@@ -14,8 +14,6 @@
 ## 第三步,获取API token
 在pages里面创建API Token
 创建后复制即可。
-
-![alt text](img/image-2.png)
 
 ## 之后在cnb中新建一个密码仓库
 
@@ -38,6 +36,8 @@ EDGEONE_PAGES_API_TOKEN: 这里冒号后面全部替换成API token,一件复制
 在回到你fork的这个仓库，点击 .cnb.yml文件，粘贴替换刚才复制的网址到指定位置。
 
 并更改你pages项目的名字.cnb.yml文件点开后能看到
+
+![alt text](img/image-6.png)
 
 .cnb.yml文件里就这2处要改
 
