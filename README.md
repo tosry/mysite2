@@ -4,7 +4,6 @@
 # 1,第一步Fork我这个仓库直接就能用，根据以下的步骤来操作，非常简单只需几秒。
 
 ## 第二步,创建一个pages项目:
-点这里新建 https://console.tencentcloud.com/edgeone/pages
 
 创建的时候选择直接上传的方式
 随便选一个示例把项目创建了就行如图
