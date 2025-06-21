@@ -1,6 +1,6 @@
 [演示链接 vitepress.w3c.cool](https://vitepress.w3c.cool)
 
-- **CNB** 1秒上手,2秒上头,启动只需要3秒**
+- **CNB 1秒上手,2秒上头,启动只需要3秒**
 - **用vitepress的新手小伙伴想用cnb部署到EdgeOne Pages**
 - **直接看步骤**
 - **1,第一步Fork我这个仓库直接就能用，根据以下的步骤来操作，非常简单只需几秒。**
