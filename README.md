@@ -9,7 +9,8 @@
 
 创建的时候选择直接上传的方式
 随便选一个示例把项目创建了就行如图
-
+![alt text](https://cnb.cool/w3c/vitepress-dgeone-pages/-/commit-assets/download/87638747bb100e63dafa386efcb081416144c9ec/0.jpg)
+https://cnb.cool/w3c/vitepress-dgeone-pages/-/commit-assets/download/87638747bb100e63dafa386efcb081416144c9ec/0.jpg
 ![alt text](img/image-1.png)
 
 ## 第三步,获取API token
