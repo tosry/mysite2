@@ -1,18 +1,18 @@
-main:
-  push:
-    - runner:
-        cpus: 64
-      # 下面的网址替换成你创建的密码文件envs.yml的地址
-      imports: https://cnb.cool/w3c/env/-/blob/main/envs.yml
-      stages:
-        - name: 云原生构建生成并部署网站到pages
-          image: node:20
-          jobs:
-          - name: 构建网站文件
-            script: npm install && npm run build
-          - name: 发布到Pages中
-            # 下面这一行 --name 后面的cnb-pages是pages项目的名字也要改成你的项目名
-            script: node_modules/.bin/edgeone pages deploy ./.vitepress/dist --name cnb-pages --token $EDGEONE_PAGES_API_TOKEN
+# main:
+#   push:
+#     - runner:
+#         cpus: 64
+#       # 下面的网址替换成你创建的密码文件envs.yml的地址
+#       imports: https://cnb.cool/w3c/env/-/blob/main/envs.yml
+#       stages:
+#         - name: 云原生构建生成并部署网站到pages
+#           image: node:20
+#           jobs:
+#           - name: 构建网站文件
+#             script: npm install && npm run build
+#           - name: 发布到Pages中
+#             # 下面这一行 --name 后面的cnb-pages是pages项目的名字也要改成你的项目名
+#             script: node_modules/.bin/edgeone pages deploy ./.vitepress/dist --name cnb-pages --token $EDGEONE_PAGES_API_TOKEN
 
 # 下面是定时任务,由于上面的设置,已经每次有任何修改都会构建部署到pages,所以定时任务没什么意义,平时没改动也没必要定时构建和部署
 # main:
