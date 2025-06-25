@@ -1,4 +1,4 @@
-### ![wind](wind.svg)[演示链接 vitepress.w3c.cool](https://vitepress.w3c.cool)
+### ![wind](wind.svg)[演示链接 vitepress-demo.w3c.cool](https://vitepress-demo.w3c.cool)
 
 - **CNB 1秒上手,2秒上头,启动只需要3秒**
 - **用vitepress的新手小伙伴想用cnb部署到EdgeOne Pages**
