@@ -7,12 +7,20 @@ export const zh = defineConfig({
 
   themeConfig: {
     nav: nav(),
-
+lastUpdated: {
+      text: '最后更新于:',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+}},
     footer: {
       message: '经典收藏',
       copyright: `Copyright © 2025`,
     },
-
+editLink: {
+      pattern: 'https://cnb.cool/tosry/vitepress-demo/-/edit/betas/:path',
+      text: '在CNB上编辑此页面'
+      },
     docFooter: {
       prev: '上一页',
       next: '下一页'
