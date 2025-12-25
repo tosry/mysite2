@@ -2,9 +2,9 @@
 title: 首页
 layout: home
 hero:
-  name: "首页"
-  text: "EdgeOne-Pages"
-  tagline: 适用于新手参考/学习/部署到EdgeOne-Pages
+  name: "VitePress"
+  text: "由 Vite 和 Vue 驱动的静态站点生成器"
+  tagline: 将 Markdown 变成优雅的文档，只需几分钟
 
   image:
     src: /groups.svg
@@ -15,8 +15,8 @@ hero:
       text: 🏡首页
       link: /
     - theme: alt
-      text: 💡四圣心源
-      link: /si/1
+      text: CNB
+      link: https://cnb.cool/tosry
 
 features:
   - icon: 🏡
