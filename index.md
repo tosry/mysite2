@@ -15,27 +15,30 @@ hero:
       text: 🏡首页
       link: /
     - theme: alt
-      text: 💡关于我
-      link: /about
+      text: 💡四圣心源
+      link: /si/1
 
 features:
   - icon: 🏡
-    title: VitePres演示站点
-    details: VitePres演示站点,适用于新手参考/学习/部署到EdgeOne-Pages
-    link: /about
+    title: 四圣心源
+    details: 一本集中医理论和实践于一体的好书
+    link: /si/1
     linkText: 了解更多
   - icon: ✨
-    title: VitePres演示站点
-    details: VitePres演示站点,适用于新手参考/学习/部署到EdgeOne-Pages
-    link: /about
+    title: 养生静心
+    details: 个人收藏
+    link: /yang/1
     linkText: 了解更多
   - icon: 💡
-    title: VitePres演示站点
-    details: VitePres演示站点,适用于新手参考/学习/部署到EdgeOne-Pages
-    link: /about
+    title: ？？？
+    details: ？？？？
+    link: /yao/1
     linkText: 了解更多
 ---
 ## VitePres演示站点
-::: danger 演示站点 
+::: danger 测试内容
+
 演示内容
+
+测试内容
 :::
