@@ -12,8 +12,8 @@ hero:
 
   actions:
     - theme: brand
-      text: 🏡首页
-      link: /
+      text: 官方文档
+      link: https://vitepress.dev/zh/
     - theme: alt
       text: CNB
       link: https://cnb.cool/tosry
@@ -32,13 +32,6 @@ features:
   - icon: 💡
     title: ？？？
     details: ？？？？
-    link: /yao/1
+    link: /yang/1
     linkText: 了解更多
 ---
-## VitePres演示站点
-::: danger 测试内容
-
-演示内容
-
-测试内容
-:::

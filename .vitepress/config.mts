@@ -11,6 +11,8 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' }]
     ],
 
+  srcExclude: ['**/README.md'],
+
   themeConfig: {
         logo: '/logo.svg',
 
@@ -21,8 +23,8 @@ export default defineConfig({
           ],
           
           footer: {
-            message: '经典收藏',
-            copyright: `Copyright © 2025`
+            message: '基于 MIT 许可发布',
+            copyright: `Copyright © 2025 夏夜万年`
             },
             
           editLink: {
@@ -33,7 +35,7 @@ export default defineConfig({
   outline: { label: '本页目录' },
 
   lastUpdated: {
-    text: '最后更新于:',
+    text: '最后更新于',
     formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
