@@ -26,17 +26,11 @@ export default defineConfig({
             },
             
           editLink: {
-              pattern: 'https://cnb.cool/tosry/vitepress-demo/-/edit/betas/:path',
+              pattern: 'https://cnb.cool/tosry/vitepress-demo/-/edit/main/:path',
               text: '在CNB上编辑此页面'
               },
-          docFooter: {
-            prev: '上一页',
-          next: '下一页'
-  },
-
-  outline: {
-          label: '本页目录'
-  },
+  docFooter: { prev: '上一页', next: '下一页' },
+  outline: { label: '本页目录' },
 
   lastUpdated: {
     text: '最后更新于:',
@@ -46,10 +40,7 @@ export default defineConfig({
         }
   },
 
-  search: {
-      provider: 'local'
-  },
-
+  search: { provider: 'local' },
   sidebar: list,
   returnToTopLabel: '回到顶部',
   sidebarMenuLabel: '菜单',
