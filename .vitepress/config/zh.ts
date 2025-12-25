@@ -2,14 +2,14 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const zh = defineConfig({
   lang: 'zh-CN',
-  title: 'VitePres演示站点',
-  description: '适用于新手参考/学习/部署到EdgeOne-Pages',
+  title: '古文收藏',
+  description: '古文，四圣心源，中医，经典',
 
   themeConfig: {
     nav: nav(),
 
     footer: {
-      message: 'VitePres演示站点',
+      message: '经典收藏',
       copyright: `Copyright © 2025`,
     },
 
@@ -22,7 +22,7 @@ export const zh = defineConfig({
       label: '本页目录'
     },
 
-    langMenuLabel: '多语言',
+    
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',

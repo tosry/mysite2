@@ -1,10 +1,14 @@
-main:
-  push:
-    - imports: https://cnb.cool/w3c/envs/-/blob/main/pages.yml
+'**':
+  web_trigger:
+    lin1:
+      runner:
+        cpus: 2
       stages:
         - name: 构建当前项目
           image: node:20
           script: npm install -g pnpm && pnpm i && pnpm run docs:build
         - name: 部署到Pages
+          imports:
+            - https://cnb.cool/tosry/api/-/blob/e2f6ca6483b949ed821a8153f965e3e40d2e5a1b/miyao.yml
           image: node:20
-          script: npx edgeone pages deploy ./.vitepress/dist --name img-w3c-cool --token $EDGEONE_PAGES_API_TOKEN
+          script: npx edgeone pages deploy ./.vitepress/dist/ -n chang -t $EDGEONE_API_TOKEN
