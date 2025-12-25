@@ -1,4 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import { list } from './list.mjs';
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -14,9 +15,9 @@ export default defineConfig({
         logo: '/logo.svg',
 
         nav: [
-            { text: '🏡首页', link: '/', activeMatch: '/' },
-            { text: '✨案例鉴赏', link: '/case', activeMatch: '/case' },
-            { text: '💡关于我', link: '/about' },
+            { text: '🏡首页', link: '/'},
+            { text: '四圣心源', link: '/si/1'},
+            { text: '养生静心', link: '/yang/1' },
           ],
           
           footer: {
@@ -49,6 +50,7 @@ export default defineConfig({
       provider: 'local'
   },
 
+  sidebar: list,
   returnToTopLabel: '回到顶部',
   sidebarMenuLabel: '菜单',
   darkModeSwitchLabel: '主题',

@@ -1,8 +1,8 @@
 ---
-title: 个人资料收集
+title: 首页
 layout: home
 hero:
-  name: "VitePres演示站点"
+  name: "首页"
   text: "EdgeOne-Pages"
   tagline: 适用于新手参考/学习/部署到EdgeOne-Pages
 
