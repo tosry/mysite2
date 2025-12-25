@@ -16,7 +16,7 @@ hero:
       link: https://vitepress.dev/zh/
     - theme: alt
       text: CNB
-      link: https://cnb.cool/tosry
+      link: https://cnb.cool/tosry/vitepress-demo/
 
 features:
   - icon: 🏡
