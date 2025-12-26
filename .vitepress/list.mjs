@@ -28,10 +28,7 @@ export const list={
                 ]
             }
      ],
-     '/post/': [{
-        text: '2025',
-        collapsed: false,
-        items: [
+     '/post/2025/': [
             {text:"termux设置登陆密码",link: '/post/2025/559'},
             {text: '多开关控制电灯',link: '/post/2025/763' },
             {text: 'termux常用命令',link: '/post/2025/810' },
@@ -57,10 +54,13 @@ export const list={
             {text: '推箱子用js实现自动寻路',link: '/post/2025/1006' },
             {text:"cnb一键部署到edgeone",link: '/post/2025/1007'},
             {text: '论博客系统框架的自用局限性',link: '/post/2025/1011' },
-            {text:"边缘函数操作请求主体",link: '/post/2025/1012'}
-
-            ]
-        }
+            {text:"边缘函数操作请求主体",link: '/post/2025/1012' }
     ]
+
+
+
+
+
+
 
 };
