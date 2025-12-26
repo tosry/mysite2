@@ -23,7 +23,7 @@
 envs.yml文件内容为：
 
 ```
-EDGEONE_PAGES_API_TOKEN: 这里冒号后面全部替换成API token,一件复制粘贴到此处
+$EDGEONE_API_TOKEN: 这里冒号后面全部替换成API token,一件复制粘贴到此处
 ```
 
 保存完之后复制这个文件envs.yml的地址

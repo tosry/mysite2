@@ -2,7 +2,7 @@
   web_trigger:
     lin1:
       runner:
-        cpus: 2
+        cpus: 1
       stages:
         - name: 构建当前项目
           image: node:20
