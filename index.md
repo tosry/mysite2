@@ -24,7 +24,7 @@ features:
     title: 四圣心源
     details: 一本集中医理论和实践于一体的好书，作者黄元御
     link: /si/1
-  - icon: 💊
+  - icon: 🍀
     title: 中药收藏
     details: 个人收藏，大部分来自《长沙药解》，作者黄元御
     link: /yao/1
