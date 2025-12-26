@@ -30,10 +30,14 @@ export default defineConfig({
           { text: '博文', items: [
             { text: '2025', link: '/post/2025/559' }
           ]},
-          { text: '链接' , items: [
+          { text: '链接', items: [
             { text: '友情链接', link: '/links' },
             { text: '收藏夹', link: '/shou' }
-          ]}
+          ]},
+          { text: '其他', items: [
+            { text: '时间线', link: '/qita/bian' }
+
+        ]}
           ],
 
         footer: {
