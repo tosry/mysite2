@@ -1,5 +1,5 @@
 /* .vitepress/theme/my-fonts.css */
 :root {
-  --vp-font-family-base: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --vp-font-family-base: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans CJK SC, WenQuanYi Micro Hei, Arial, sans-serif;
   --vp-font-family-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
