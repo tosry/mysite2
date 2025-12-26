@@ -14,8 +14,9 @@ export default defineConfig({
     ['meta', { name: 'author', content: '夏夜万年' }]  
     ],
 
-  srcExclude: ['**/README.md'],
-
+  srcExclude: [ '**/README.md' ],
+  markdown: { lineNumbers: true },
+  
   themeConfig: {
         logo: '/logo.svg',
 
