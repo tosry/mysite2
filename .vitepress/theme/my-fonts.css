@@ -1,0 +1,5 @@
+/* .vitepress/theme/my-fonts.css */
+:root {
+  --vp-font-family-base: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --vp-font-family-mono: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
