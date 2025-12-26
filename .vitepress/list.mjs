@@ -15,8 +15,9 @@ export const list={
                 ]
             },{text: '太上九要',link: '/yang/7' }
             ],
-     '/si/': [{text:"概述",link: '/si/1'},
-            {text: '天人解',link: '/si/2' }
+     '/si/': [{text:"概述",link: '/si/1' },
+            {text: '天人解',link: '/si/2' },
+            {text: '六气解',link: '/si/3' }
      ],
      '/yao/': [{
         text: '脾胃部',
