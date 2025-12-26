@@ -1,3 +1,10 @@
+import { data as posts } from './posts.data.js';
+const blogs = posts.map(post => {
+  return {
+    text: post.frontmatter.title,
+    link: post.url
+  };
+});
 export const list={
     '/yang/': [{
         text: '养生',
@@ -26,6 +33,7 @@ export const list={
                 { text: '砂仁', link: '/yao/3' }
                 ]
             }
-     ]
+     ], 
+     '/post/': blogs
 
 };
