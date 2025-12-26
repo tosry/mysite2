@@ -26,6 +26,11 @@ export const list={
                 { text: '砂仁', link: '/yao/3' }
                 ]
             }
+     ],
+     '/post/': [{text:"termux设置登陆密码",link: '/post/559'},
+            {text: '多开关控制电灯',link: '/post/763' }
      ]
+
+
 
 };
