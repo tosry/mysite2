@@ -27,10 +27,13 @@ export default defineConfig({
             { text: '中药收藏', link: '/yao/1' },
             { text: '养生静心', link: '/yang/1' }
           ]},
-          {text: '博文', items: [
+          { text: '博文', items: [
             { text: '2025', link: '/post/2025/559' }
           ]},
-          { text: '友链' , link: '/links' }
+          { text: '链接' , items: [
+            { text: '友情链接', link: '/links' },
+            { text: '收藏夹', link: '/shou' }
+          ]}
           ],
 
         footer: {
