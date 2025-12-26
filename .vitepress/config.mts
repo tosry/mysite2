@@ -21,15 +21,18 @@ export default defineConfig({
         logo: '/logo.svg',
 
         nav: [
+          { text: '书籍', items: [
             { text: '四圣心源', link: '/si/1' },
             { text: '中药收藏', link: '/yao/1' },
-            { text: '养生静心', link: '/yang/1' },
-            { text: '友链' , link: '/links' }
+            { text: '养生静心', link: '/yang/1' }
+          ]},
+          {text: '博文', link: '/post/559'},
+          { text: '友链' , link: '/links' }
           ],
 
         footer: {
             message: '<a href="https://beian.miit.gov.cn/">豫ICP备2024089297号-2</a>|<a href="https://beian.mps.gov.cn/#/query/webSearch?code=41172602000215">豫公网安备41172602000215号</a>',
-            copyright: `Copyright © 2025 时光绘梦集 版权所有|EdgeOne提供加速服务`
+            copyright: `© 2025 时光绘梦集|EdgeOne提供加速服务`
             },
             
         editLink: {
