@@ -26,7 +26,7 @@ export default defineConfig({
             { text: '中药收藏', link: '/yao/1' },
             { text: '养生静心', link: '/yang/1' }
           ]},
-          {text: '博文', link: '/post/559'},
+          {text: '博文', link: '/post/2025/559' },
           { text: '友链' , link: '/links' }
           ],
 
