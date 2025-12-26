@@ -1,4 +1,4 @@
-import { data as posts } from './posts.data.js';
+import posts  from './posts.data.js';
 const blogs = posts.map(post => {
   return {
     text: post.frontmatter.title,
