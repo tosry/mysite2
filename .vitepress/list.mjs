@@ -1,6 +1,6 @@
 import { createContentLoader } from 'vitepress';
 const posts = await createContentLoader('post/*.md').load();
-const blogs = posts.map(post => {
+const blogs = await posts.map(post => {
   return {
     text: post.frontmatter.title,
     link: post.url
