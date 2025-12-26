@@ -21,9 +21,10 @@ export default defineConfig({
         logo: '/logo.svg',
 
         nav: [
-            { text: '四圣心源', link: '/si/1'},
-            { text: '中药收藏', link: '/yao/1'},
+            { text: '四圣心源', link: '/si/1' },
+            { text: '中药收藏', link: '/yao/1' },
             { text: '养生静心', link: '/yang/1' },
+            { text: '友链' , link: '/links' }
           ],
 
         footer: {
