@@ -1,11 +1,14 @@
 import { createContentLoader } from 'vitepress';
-const posts = await createContentLoader('post/*.md').load();
-const blogs = await posts.map(post => {
+const posts= async () =>{
+const data = await createContentLoader('post/*.md').load();
+return data.map(post => {
   return {
     text: post.frontmatter.title,
     link: post.url
   };
 });
+};
+const blogs = 
 export const list={
     '/yang/': [{
         text: '养生',
