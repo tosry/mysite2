@@ -17,9 +17,6 @@ hero:
     - theme: alt
       text: CNB
       link: https://cnb.cool/tosry/vitepress-demo/
-    - theme: alt
-      text: 博文
-      link: /post/2025/559
 
 
 features:
