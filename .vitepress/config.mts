@@ -3,14 +3,14 @@ import { list } from './list.mjs';
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: '古文收藏',
-  description: '一个个人的站点，收藏一些经典古籍',
+  title: '时光绘梦集',
+  description: '一个个人的站点，记录生活，分享知识',
 
   head: [
     ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' }],
     ['link', { rel: 'stylesheet', href: '/my.css' }],
-    ['meta', { name: 'keywords', content: '四圣心源,中医,养生' }],
+    ['meta', { name: 'keywords', content: '生活,中医,养生' }],
     ['meta', { name: 'author', content: '夏夜万年' }]  
     ],
 
@@ -27,7 +27,7 @@ export default defineConfig({
 
         footer: {
             message: '基于 MIT 许可发布',
-            copyright: `Copyright © 2025 夏夜万年`
+            copyright: `Copyright © 2025 时光绘梦集`
             },
             
         editLink: {
