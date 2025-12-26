@@ -23,5 +23,11 @@ features:
   - title: 安兔兔
     details: 安兔兔性价比神机
     link: https://www.antutu.com/ranking/rank202.htm
+  - title: 歌曲宝
+    details: 歌曲搜索,播放，免费下载
+    link: https://www.gequbao.com/
+  - title: 云原生构建
+    details: 代码仓库，代码托管、构建，开发，腾讯云
+    link: https://cnb.cool/tosry
 
 ---
