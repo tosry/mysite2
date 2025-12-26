@@ -16,8 +16,6 @@ export default defineConfig({
 
   srcExclude: ['**/README.md'],
 
-  sitemap: { hostname: 'https://chang.tosry.cn' },
-
   themeConfig: {
         logo: '/logo.svg',
 
