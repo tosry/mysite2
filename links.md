@@ -16,8 +16,8 @@ features:
   - icon:
      src: https://www.lanzlz.cn/upload/2/logo-fnojpxgp-uzfouryg.png
      alt:图标
-     width:64
-     height:64
+     width: 64
+     height: 64
     title: 云深不知处
     details: 不食人间烟火 且饮半杯风霜
     link: https://www.lanzlz.cn
