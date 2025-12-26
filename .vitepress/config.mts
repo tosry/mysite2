@@ -26,7 +26,7 @@ export default defineConfig({
           ],
 
         footer: {
-            message: '基于 MIT 许可发布',
+            message: '<a href="https://beian.miit.gov.cn/">豫ICP备2024089297号-2</a>|<a href="https://beian.mps.gov.cn/#/query/webSearch?code=41172602000215"><img src="/icon/110.png" height="15" width="15">豫公网安备41172602000215号</a>',
             copyright: `Copyright © 2025 时光绘梦集`
             },
             
