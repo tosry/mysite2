@@ -1,4 +1,5 @@
-import posts  from './posts.data.js';
+import { createContentLoader } from 'vitepress';
+const posts = await createContentLoader('post/*.md').load();
 const blogs = posts.map(post => {
   return {
     text: post.frontmatter.title,
