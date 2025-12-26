@@ -27,10 +27,13 @@ export const list={
                 ]
             }
      ],
-     '/post/': [{text:"termux设置登陆密码",link: '/post/559'},
-            {text: '多开关控制电灯',link: '/post/763' }
-     ]
-
-
+     '/post/': [{
+        text: '2025',
+        collapsed: false,
+        items: [{text:"termux设置登陆密码",link: '/post/2025/559'},
+            {text: '多开关控制电灯',link: '/post/2025/763' }
+            ]
+        }
+    ]
 
 };
