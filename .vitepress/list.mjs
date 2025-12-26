@@ -5,7 +5,6 @@ const blogs=data.map(post => {
     link: post.url
   };
 });
-const blogs = 
 export const list={
     '/yang/': [{
         text: '养生',
