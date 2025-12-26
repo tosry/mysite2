@@ -33,7 +33,7 @@ export default defineConfig({
           { text: '链接', items: [
             { text: '友情链接', link: '/qita/links' },
             { text: '收藏夹', link: '/qita/shou' },
-            { text: '时间线', link: '/qita/bian' }
+            { text: '关于', link: '/qita/bian' }
         ]}
           ],
 
