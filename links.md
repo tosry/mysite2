@@ -14,7 +14,7 @@ features:
     link:  https://www.ajinol.com
   - icon:
       src: https://www.lanzlz.cn/upload/2/logo-fnojpxgp-uzfouryg.png
-      alt:图标
+      alt: 图标
       height: 64
     title: 云深不知处
     details: 不食人间烟火 且饮半杯风霜
