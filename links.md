@@ -6,10 +6,11 @@ hero:
 
 features:
   - icon:
-      src: /cool-feature-icon.svg
+      src: https://www.ajinol.com/upload/logo.png
+      alt: 链接
       width: 32
       height: 32
-    title: Another cool feature
-    details: Lorem ipsum...
-    link: 
+    title:  阿锦在线
+    details:  记录生活点滴！
+    link:  https://www.ajinol.com
 ---
