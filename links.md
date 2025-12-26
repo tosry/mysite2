@@ -1,6 +1,6 @@
 ---
 layout: home
-
+title: 友情链接
 hero:
   name: 友情链接
 
@@ -34,7 +34,7 @@ features:
     details: Never Mind the Scandal and Liber
     link: https://nmsl.cn/
   - icon:
-      src: https://zhehuo.qzz.io/
+      src: https://zhehuo.qzz.io/images/logo.png
       alt: 图标
       height: 64
     title: 这货滴博客
