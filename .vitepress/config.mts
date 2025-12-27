@@ -9,7 +9,6 @@ export default defineConfig({
   head: [
     ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
-    ['link', { rel: 'stylesheet', href: '/my.css' }],
     ['meta', { name: 'keywords', content: '记录生活,代码分享,中医知识,健康养生,个人成长,人生感悟' }],
     ['meta', { name: 'author', content: '夏夜万年' }]  
     ],
