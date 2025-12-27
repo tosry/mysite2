@@ -16,7 +16,7 @@ export default defineConfig({
 
   srcExclude: [ '**/README.md' ],
   markdown: { lineNumbers: true },
-  sitemap: { hostname: 'https://chang.tosry.cn' },
+  sitemap: { hostname: 'https://www.tosry.cn' },
   
   themeConfig: {
         logo: '/logo.svg',
