@@ -7,8 +7,8 @@ hero:
   tagline: 一个普通的vitepress站点
 
   image:
-    src: /groups.svg
-    alt: 
+    src: /icon/groups.svg
+    alt: 背景
 
   actions:
     - theme: brand
