@@ -4,6 +4,11 @@ title: 友情链接
 hero:
   name: 友情链接
 
+  image:
+    src: /icon/groups.svg
+    alt: 背景
+
+
 features:
   - icon:
       src: https://www.ajinol.com/upload/logo.png
