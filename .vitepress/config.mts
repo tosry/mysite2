@@ -22,6 +22,7 @@ export default defineConfig({
         logo: '/logo.svg',
 
         nav: [
+           { text: '🏠', link: 'https://tosry.cn' },
           { text: '书籍', items: [
             { text: '四圣心源', link: '/si/1' },
             { text: '中药收藏', link: '/yao/1' },
