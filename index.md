@@ -2,9 +2,8 @@
 title: 首页
 layout: home
 hero:
-  name: "tosry"
   text: "时光绘梦集"
-  tagline: 一个普通的vitepress站点
+  tagline: 这是一个用vitepress制作的站点
 
   image:
     src: /icon/groups.svg
@@ -26,10 +25,10 @@ features:
     link: /si/1
   - icon: 🍀
     title: 中药收藏
-    details: 个人收藏，大部分来自《长沙药解》，作者黄元御
+    details: 个人收藏的中药知识，大部分来自《长沙药解》，作者黄元御
     link: /yao/1
   - icon: ☀️
     title: 养生静心
-    details: 个人收藏的古籍经文
+    details: 个人收藏的健康养生以及修行的内容
     link: /yang/1
 ---

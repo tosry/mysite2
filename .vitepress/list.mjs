@@ -11,9 +11,11 @@ export const list={
         collapsed: true,
         items: [{ text: '清静经', link: '/yang/4' },
                 { text: '说了心经', link: '/yang/5' },
-                { text: '日用妙经', link: '/yang/6' }
+                { text: '日用妙经', link: '/yang/6' },
+                { text: '内丹经', link: '/yang/8' }
                 ]
-            },{text: '太上九要',link: '/yang/7' }
+            },{ text: '太上九要',link: '/yang/7' },
+            { text: '吕祖百字碑', link: '/yang/9' }
             ],
      '/si/': [{text:"概述",link: '/si/1' },
             {text: '天人解',link: '/si/2' },

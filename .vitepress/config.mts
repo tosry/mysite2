@@ -4,13 +4,13 @@ import { list } from './list.mjs';
 export default defineConfig({
   lang: 'zh-CN',
   title: '时光绘梦集',
-  description: '一个个人的站点，记录生活，分享知识',
+  description: '时光绘梦集是一个记录生活点滴、分享代码、中医知识和养生相关的个人博客。在这里，你可以找到关于个人成长、心理健康、健康养生和自然疗法的相关知识。',
 
   head: [
     ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['link', { rel: 'stylesheet', href: '/my.css' }],
-    ['meta', { name: 'keywords', content: '生活,中医,养生' }],
+    ['meta', { name: 'keywords', content: '记录生活,代码分享,中医知识,健康养生,个人成长,人生感悟' }],
     ['meta', { name: 'author', content: '夏夜万年' }]  
     ],
 

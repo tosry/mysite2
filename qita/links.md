@@ -2,8 +2,8 @@
 layout: home
 title: 友情链接
 hero:
-  name: 友情链接
-  tagline: 我的友情链接
+  text: '友情链接'
+  tagline: 加入的网络大家庭
 
   image:
     src: /icon/groups.svg

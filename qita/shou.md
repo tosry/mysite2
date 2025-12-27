@@ -2,8 +2,8 @@
 layout: home
 title: 收藏夹
 hero:
-  name: 收藏夹
-  tagline: 我的收藏夹
+  text: '收藏夹'
+  tagline: 保存并访问有价值的内容
 
   image:
     src: /icon/groups.svg
