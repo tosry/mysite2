@@ -3,6 +3,7 @@ layout: home
 title: 友情链接
 hero:
   name: 友情链接
+  tagline: 我的友情链接
 
   image:
     src: /icon/groups.svg
