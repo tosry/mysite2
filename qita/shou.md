@@ -3,6 +3,7 @@ layout: home
 title: 收藏夹
 hero:
   name: 收藏夹
+  tagline: 我的收藏夹
 
   image:
     src: /icon/groups.svg
