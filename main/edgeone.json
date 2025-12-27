@@ -1,4 +1,8 @@
 {
+    "nodeVersion": "22.11.0",
+    "installCommand": "npm install -g pnpm && pnpm i",
+    "buildCommand": "pnpm run docs:build",
+    "outputDirectory": "./.vitepress/dist",
     "headers": [
         {
             "source": "/*",

@@ -1,4 +1,4 @@
-### ![wind](/public/icon/logo.svg) 预览地址： <https://www.tosry.cn>
+### ![wind](/main/public/icon/logo.svg) 预览地址： <https://www.tosry.cn>
 
 - **CNB 1秒上手,2秒上头,启动只需要3秒**
 - **用vitepress的新手小伙伴想用cnb部署到EdgeOne Pages**

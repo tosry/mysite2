@@ -43,7 +43,7 @@ export default defineConfig({
             },
             
         editLink: {
-              pattern: 'https://cnb.cool/tosry/vitepress-demo/-/edit/main/:path',
+              pattern: 'https://cnb.cool/tosry/vitepress-demo/-/edit/main/main/:path',
               text: '在CNB上编辑此页面'
               },
               
