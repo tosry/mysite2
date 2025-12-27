@@ -5,7 +5,7 @@
       <cc:Work rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>W3C</dc:title>
+        <dc:title>svg</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
