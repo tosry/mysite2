@@ -4,6 +4,11 @@ title: 收藏夹
 hero:
   name: 收藏夹
 
+  image:
+    src: /icon/groups.svg
+    alt: 背景
+
+
 features:
   - title: 道人家
     details: 中华道藏，道家经典，在线阅读
