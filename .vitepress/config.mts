@@ -7,8 +7,8 @@ export default defineConfig({
   description: '一个个人的站点，记录生活，分享知识',
 
   head: [
-    ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/logo.svg' }],
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/logo.svg' }],
+    ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/icon/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['link', { rel: 'stylesheet', href: '/my.css' }],
     ['meta', { name: 'keywords', content: '生活,中医,养生' }],
     ['meta', { name: 'author', content: '夏夜万年' }]  
@@ -19,7 +19,7 @@ export default defineConfig({
   sitemap: { hostname: 'https://www.tosry.cn' },
   
   themeConfig: {
-        logo: '/logo.svg',
+        logo: '/icon/logo.svg',
 
         nav: [
            { text: '🏠', link: 'https://tosry.cn' },
