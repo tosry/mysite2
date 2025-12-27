@@ -24,7 +24,13 @@ export const list={
         collapsed: false,
         items: [{ text: '甘草', link: '/yao/1' },
                 { text: '茯苓', link: '/yao/2' },
-                { text: '砂仁', link: '/yao/3' }
+                { text: '砂仁', link: '/yao/3' },
+                { text: '干姜', link: '/yao/4' },
+                { text: '大枣', link: '/yao/5' },
+                { text: '半夏', link: '/yao/6' },
+                { text: '白术', link: '/yao/7' },
+                { text: '人参', link: '/yao/8' },
+                { text: '大黄', link: '/yao/9' }
                 ]
             }
      ],
