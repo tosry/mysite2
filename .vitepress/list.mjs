@@ -33,7 +33,22 @@ export const list={
                 { text: '人参', link: '/yao/8' },
                 { text: '大黄', link: '/yao/9' }
                 ]
+            },{
+        text: '肝胆部',
+        collapsed: true,
+        items: [{ text: '桂枝', link: '/yao/10' },
+                { text: '芍药', link: '/yao/11' },
+                { text: '柴胡', link: '/yao/12' },
+                { text: '丹皮', link: '/yao/13' },
+                { text: '桃仁', link: '/yao/14' },
+                { text: '首乌', link: '/yao/15' },
+                { text: '丹参', link: '/yao/16' },
+                { text: '当归', link: '/yao/17' },
+                { text: '黄芩', link: '/yao/18' },
+                { text: '黄柏', link: '/yao/19' }
+                ]
             }
+
      ],
      '/post/2025/': [
             {text:"termux设置登陆密码",link: '/post/2025/559'},
@@ -63,11 +78,5 @@ export const list={
             {text: '论博客系统框架的自用局限性',link: '/post/2025/1011' },
             {text:"边缘函数操作请求主体",link: '/post/2025/1012' }
     ]
-
-
-
-
-
-
 
 };
