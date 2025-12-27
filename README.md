@@ -1,4 +1,4 @@
-### ![wind](wind.svg)[演示链接 chang.tosry.cn](https://chang.tosry.cn)
+### ![wind](wind.svg)[演示链接 www.tosry.cn](https://www.tosry.cn)
 
 - **CNB 1秒上手,2秒上头,启动只需要3秒**
 - **用vitepress的新手小伙伴想用cnb部署到EdgeOne Pages**
