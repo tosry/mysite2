@@ -17,7 +17,8 @@ export const list={
             ],
      '/si/': [{text:"概述",link: '/si/1' },
             {text: '天人解',link: '/si/2' },
-            {text: '六气解',link: '/si/3' }
+            {text: '六气解',link: '/si/3' },
+            {text: '劳伤解',link: '/si/4' }
      ],
      '/yao/': [{
         text: '脾胃部',
