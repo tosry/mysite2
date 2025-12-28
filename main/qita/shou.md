@@ -6,7 +6,7 @@ hero:
   tagline: 保存并访问有价值的内容
 
   image:
-    src: /icon/groups.svg
+    src: /icon/logo.svg
     alt: 背景
 
 
@@ -35,5 +35,8 @@ features:
   - title: 云原生构建
     details: 代码仓库，代码托管、构建，开发，腾讯云
     link: https://cnb.cool/tosry
+  - title: vitepress中文文档
+    details: vitepress是一个静态网站构建工具
+    link: https://vitepress.dev/zh/
 
 ---

@@ -66,6 +66,8 @@ export const list={
             {text: 'php设置页面缓存时间',link: '/post/2025/915' },
             {text: 'js阻止直接跳转外部链接',link: '/post/2025/923' },
             {text: 'iptables限制连接速率',link: '/post/2025/936' },
+            {text: '日结失败的一天',link:'/post/2025/947' },
+            {text: 'php发送邮件',link:'/post/2025/948' },
             {text: 'nftable设置防火墙',link: '/post/2025/950' },
             {text: 'php导出mysql数据库备份',link: '/post/2025/968' },
             {text: 'url传值中文字符串',link: '/post/2025/969' },

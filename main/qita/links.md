@@ -6,7 +6,7 @@ hero:
   tagline: 加入的网络大家庭
 
   image:
-    src: /icon/groups.svg
+    src: /icon/logo.svg
     alt: 背景
 
 

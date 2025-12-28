@@ -21,19 +21,17 @@ export default defineConfig({
         logo: '/icon/logo.svg',
 
         nav: [
-           { text: '🏠', link: 'https://tosry.cn' },
           { text: '书籍', items: [
             { text: '四圣心源', link: '/si/1' },
             { text: '中药收藏', link: '/yao/1' },
             { text: '养生静心', link: '/yang/1' }
           ]},
-          { text: '博文', items: [
-            { text: '2025', link: '/post/2025/559' }
+          { text: '文章', items: [
+            { text: '2023-2025', link: '/post/2025/559' }
           ]},
           { text: '链接', items: [
             { text: '友情链接', link: '/qita/links' },
-            { text: '收藏夹', link: '/qita/shou' },
-            { text: '关于', link: '/qita/bian' }
+            { text: '收藏夹', link: '/qita/shou' }
         ]}
           ],
 

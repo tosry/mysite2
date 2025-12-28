@@ -3,19 +3,22 @@ title: 首页
 layout: home
 hero:
   text: "时光绘梦集"
-  tagline: 这是一个用vitepress制作的站点
+  tagline: 一个用vitepress制作的文档兼博客站点
 
   image:
-    src: /icon/groups.svg
+    src: /icon/logo.svg
     alt: 背景
 
   actions:
     - theme: brand
-      text: 官方文档
-      link: https://vitepress.dev/zh/
+      text: 个人页
+      link: https://tosry.cn/
     - theme: alt
-      text: CNB
-      link: https://cnb.cool/tosry/vitepress-demo/
+      text: 监测页
+      link: https://status.tosry.cn/
+    - theme: alt
+      text: 关于
+      link: /qita/bian
 
 
 features:
