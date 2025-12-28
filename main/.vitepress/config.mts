@@ -4,18 +4,17 @@ import { list } from './list.mjs';
 export default defineConfig({
   lang: 'zh-CN',
   title: '时光绘梦集',
-  description: '时光绘梦集是一个记录生活点滴、分享代码、中医知识和养生相关的个人博客。在这里，你可以找到关于个人成长、心理健康、健康养生和自然疗法的相关知识。',
+  description: '这是一个记录生活点滴、分享兴趣爱好的个人文档兼博客站点。在这里，你可以找到关于个人经历和中医养生的相关内容。',
 
   head: [
     ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
-    ['meta', { name: 'keywords', content: '记录生活,代码分享,中医知识,健康养生,个人成长,人生感悟' }],
+    ['meta', { name: 'keywords', content: '记录生活,代码分享,中医知识,健康养生' }],
     ['meta', { name: 'author', content: '夏夜万年' }]  
   ],
 
   srcExclude: [ '**/README.md' ],
   markdown: { lineNumbers: true },
-  sitemap: { hostname: 'https://www.tosry.cn' },
   
   themeConfig: {
         logo: '/icon/logo.svg',
@@ -23,8 +22,7 @@ export default defineConfig({
         nav: [
           { text: '书籍', items: [
             { text: '四圣心源', link: '/si/1' },
-            { text: '中药收藏', link: '/yao/1' },
-            { text: '养生静心', link: '/yang/1' }
+            { text: '中药收藏', link: '/yao/1' }
           ]},
           { text: '文章', items: [
             { text: '2023-2025', link: '/post/2025/559' }
