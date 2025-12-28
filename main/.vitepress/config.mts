@@ -11,7 +11,7 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['meta', { name: 'keywords', content: '记录生活,代码分享,中医知识,健康养生,个人成长,人生感悟' }],
     ['meta', { name: 'author', content: '夏夜万年' }]  
-    ],
+  ],
 
   srcExclude: [ '**/README.md' ],
   markdown: { lineNumbers: true },
@@ -46,26 +46,22 @@ export default defineConfig({
               pattern: 'https://cnb.cool/tosry/vitepress-demo/-/edit/main/main/:path',
               text: '在CNB上编辑此页面'
               },
-              
+            
         docFooter: { prev: '上一页', next: '下一页' },
         outline: { label: '页面导航' },
-        
-        lastUpdated: {
-          text: '最后更新于',
-          formatOptions: {
-            dateStyle: 'full',
-            timeStyle: 'medium'
-            }
+
+        notFound: {
+          title: '页面未找到',quote: '您所访问的资源已经失效',
+          linkLabel: '前往首页',linkText: '带我回首页'
         },
         
         search: { provider: 'local' },
         sidebar: list,
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',
-        darkModeSwitchLabel: '主题',
         lightModeSwitchTitle: '切换到浅色模式',
-        darkModeSwitchTitle: '切换到深色模式'
-
+        darkModeSwitchTitle: '切换到深色模式',
+        darkModeSwitchLabel: '主题'
 
   }
 
