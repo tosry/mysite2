@@ -14,10 +14,7 @@ hero:
       text: 个人页
       link: https://tosry.cn/
     - theme: alt
-      text: 监测页
-      link: https://status.tosry.cn/
-    - theme: alt
-      text: 关于
+      text: 关于页
       link: /qita/bian
 
 

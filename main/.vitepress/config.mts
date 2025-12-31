@@ -10,10 +10,21 @@ export default defineConfig({
     ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['meta', { name: 'keywords', content: '记录生活,代码分享,中医知识,健康养生' }],
-    ['meta', { name: 'author', content: '夏夜万年' }]  
+    ['meta', { name: 'author', content: '夏夜万年' }]
   ],
 
   markdown: { lineNumbers: true },
+
+  sitemap: {
+    hostname: 'https://www.tosry.cn',
+    transformItems: (items) => {
+    const filteredItems = items.filter(item => !item.url.startsWith('mi/'));
+    return filteredItems;
+    }
+  },
+
+
+
   
   themeConfig: {
         logo: '/icon/logo.svg',
@@ -38,8 +49,8 @@ export default defineConfig({
             },
             
         docFooter: { prev: '上一页', next: '下一页' },
-        outline: { label: '页面导航' },
-
+        aside: true,
+        outline: { label: '页面导航', level: [ 2, 3 ] },
         notFound: {
           title: '页面未找到',quote: '您所访问的资源已经失效',
           linkLabel: '前往首页',linkText: '带我回首页'
