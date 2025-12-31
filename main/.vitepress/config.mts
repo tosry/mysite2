@@ -35,7 +35,8 @@ export default defineConfig({
             { text: '中药收藏', link: '/yao/' }
           ]},
           { text: '文章', items: [
-            { text: '≤2025年', link: '/post/2025/' }
+            { text: '≤2025年', link: '/post/2025/' },
+            { text: '2026年', link: '/post/2026/' }
           ]},
           { text: '链接', items: [
             { text: '友情链接', link: '/qita/links' },

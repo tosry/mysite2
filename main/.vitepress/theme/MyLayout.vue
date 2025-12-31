@@ -6,7 +6,8 @@ const issi = ref('');
 const links = {
   '/si/': '四圣心源',
   '/yao/': '中药收藏',
-  '/post/2025/': '文章(≤2025年)',
+  '/post/2025/': '文章列表(≤2025年)',
+  '/post/2026/': '文章列表(2026年)',
   '/mi/': '修行(个人收藏，禁止非法传播)'
 };
 const updateIssi = () => {
@@ -24,5 +25,5 @@ watch(() => route.path, updateIssi, { immediate: true });
 
 </script>
 <template>
-      <p>当前位置：<a href="/">首页</a> – <span v-html="issi"></span></p><div><br></div>
+      <div class="my-nav-block">当前位置：🏠 <a href="/">首页</a>-<span v-html="issi"></span>-内容</div>
 </template>
