@@ -11,11 +11,11 @@ const links = {
 };
 const updateIssi = () => {
   const pathname = route.path;
-  issi.value=`
-  <span v-for="(segment, index) in path.split('/').slice(1)" :key="index">
-    <a :href="'/' + path.split('/').slice(0, index + 1).join('/')">{{ links[segment]||segment }}</a>
-    <span v-if="index < path.split('/').length - 2"> > </span>
-    </span>`;
+  issi.value = pathname.split('/').slice(1).map((segment, index, arr) => {
+    const linkText = links[segment] || segment;
+    const isLast = index === arr.length - 1;
+    return `<a href="/${pathname.split('/').slice(0, index + 1).join('/')}">${linkText}</a>${!isLast ? ' > ' : ''}`;
+  }).join('');
 };
 
 watch(() => route.path, updateIssi, { immediate: true });
