@@ -4,7 +4,7 @@ import { useRoute } from 'vitepress';
 const route = useRoute();
 const issi = ref('');
 const links = {
-  'si': '四圣心源','yao': '中药收藏','books':'书籍',
+  'si': '四圣心源','yao': '中药收藏','books':'书籍','su':'黄帝内经',
   'post': '文章归档','mi': '修行(保密)','qita':'关于'
 };
 const updateIssi = () => {
