@@ -4,12 +4,12 @@ import { list } from './list.mjs';
 export default defineConfig({
   lang: 'zh-CN',
   title: '时光绘梦集',
-  description: '这是一个记录生活点滴、分享兴趣爱好的个人文档兼博客站点。在这里，你可以找到关于个人经历和中医养生的相关内容。',
+  description: '这是一个用来记录生活和编程中遇到的经历和感悟，以及偶尔收藏一些中医方面内容的个人站点。',
 
   head: [
     ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
-    ['meta', { name: 'keywords', content: '记录生活,代码分享,中医知识,健康养生' }],
+    ['meta', { name: 'keywords', content: '生活,代码,中医,健康,养生,博客,笔记' }],
     ['meta', { name: 'author', content: '夏夜万年' }]
   ],
 
@@ -46,7 +46,7 @@ export default defineConfig({
 
         footer: {
             message: '<a href="https://beian.miit.gov.cn/">豫ICP备2024089297号-2</a><br><a href="https://beian.mps.gov.cn/#/query/webSearch?code=41172602000215"><img src="/110.png" alt="公安备案" height="20">豫公网安备41172602000215号</a>',
-            copyright: `Copyright © 2021-2025 时光绘梦集 版权所有<br>EdgeOne提供免费加速服务｜<a href='https://www.landui.com?refer_host=lanMjEwMDB1aQ=='>蓝队云提供免费虚拟主机</a>`
+            copyright: `Copyright © 2021-2026 时光绘梦集 版权所有<br>EdgeOne提供免费加速服务｜<a href='https://www.landui.com?refer_host=lanMjEwMDB1aQ=='>蓝队云提供免费虚拟主机</a>`
             },
             
         docFooter: { prev: '上一页', next: '下一页' },
