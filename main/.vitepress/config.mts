@@ -9,7 +9,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/icon/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
-    ['meta', { name: 'keywords', content: '生活,代码,中医,健康,养生,博客,笔记' }],
+    ['meta', { name: 'keywords', content: '生活,代码,编程,中医,健康,养生,博客,笔记' }],
     ['meta', { name: 'author', content: '夏夜万年' }]
   ],
 
