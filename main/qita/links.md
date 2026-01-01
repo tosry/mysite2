@@ -39,12 +39,5 @@ features:
     title: NMSL.CN
     details: Never Mind the Scandal and Liber
     link: https://nmsl.cn/
-  - icon:
-      src: https://zhehuo.qzz.io/images/logo.png
-      alt: 图标
-      height: 64
-    title: 这货滴博客
-    details: 一个javaer滴个人博客小破站！
-    link: https://zhehuo.qzz.io/
 
 ---
