@@ -5,7 +5,7 @@ const route = useRoute();
 const issi = ref('');
 const links = {
   'si': '四圣心源','yao': '中药收藏',
-  'post': '文章列表','mi': '修行(保密)','qita':'其它'
+  'post': '文章归档','mi': '修行(保密)','qita':'其它'
 };
 const updateIssi = () => {
   const pathname = route.path;
