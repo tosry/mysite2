@@ -20,11 +20,11 @@ hero:
 
 features:
   - icon: 📚
-    title: 四圣心源
-    details: 一本集中医理论和实践于一体的好书，作者黄元御
-    link: /si/
-  - icon: 🍀
-    title: 中药收藏
-    details: 个人收藏的中药知识，大部分来自《长沙药解》，作者黄元御
-    link: /yao/
+    title: 书籍
+    details: 个人收藏的中医方面的内容
+    link: /books/
+  - icon: 📕
+    title: 文章
+    details: 我的文章，笔记
+    link: /post/
 ---

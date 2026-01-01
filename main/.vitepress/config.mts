@@ -30,16 +30,9 @@ export default defineConfig({
         logo: '/icon/logo.svg',
 
         nav: [
-          { text: '书籍', items: [
-            { text: '四圣心源', link: '/si/' },
-            { text: '中药收藏', link: '/yao/' }
-          ]},
-          { text: '文章', link: '/post/' },
-          { text: '链接', items: [
-            { text: '友情链接', link: '/qita/links' },
-            { text: '收藏夹', link: '/qita/shou' }
-        ]}
-          ],
+          { text: '友情链接', link: '/qita/links' },
+          { text: '收藏夹', link: '/qita/shou' }
+        ],
 
         footer: {
             message: '<a href="https://beian.miit.gov.cn/">豫ICP备2024089297号-2</a><br><a href="https://beian.mps.gov.cn/#/query/webSearch?code=41172602000215"><img src="/110.png" alt="公安备案" height="20">豫公网安备41172602000215号</a>',
