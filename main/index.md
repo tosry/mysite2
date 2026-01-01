@@ -15,7 +15,7 @@ hero:
       link: https://tosry.cn/
     - theme: alt
       text: 关于页
-      link: /qita/bian
+      link: /qita/
 
 
 features:
