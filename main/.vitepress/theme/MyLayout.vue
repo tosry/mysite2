@@ -11,7 +11,7 @@ const links = {
 };
 const updateIssi = () => {
   const pathname = route.path;
-  issi.value = pathname.split('/').slice(1).map((segment, index, arr) => {
+  issi.value = pathname.split('/').slice(1,-1).map((segment, index, arr) => {
     const linkText = links[segment] || segment;
     const isLast = index === arr.length - 1;
     return `<a href="${pathname.split('/').slice(0, index + 2).join('/')}">${linkText}</a>${!isLast ? ' > ' : ''}`;
