@@ -35,8 +35,5 @@ features:
   - title: 云原生构建
     details: 代码仓库，代码托管、构建，开发，腾讯云
     link: https://cnb.cool/
-  - title: vitepress中文文档
-    details: vitepress是一个静态网站构建工具
-    link: https://vitepress.dev/zh/
 
 ---
