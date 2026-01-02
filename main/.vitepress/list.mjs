@@ -1,20 +1,23 @@
 export const list={
-    '/books/su/': [{text:"概述",link: '/books/su/' },
-            {text: '上古天真论',link: '/books/su/1' },
-            {text: '四气调神大论',link: '/books/su/2' },
-            {text: '生气通天论',link: '/books/su/3' }
+    '/books/su/': [
+        {text:"概述",link: '/books/su/' },
+        {text: '上古天真论',link: '/books/su/1' },
+        {text: '四气调神大论',link: '/books/su/2' },
+        {text: '生气通天论',link: '/books/su/3' }
     ],
-     '/books/si/': [{text:"概述",link: '/books/si/' },
-            {text: '天人解',link: '/books/si/2' },
-            {text: '六气解',link: '/books/si/3' },
-            {text: '劳伤解',link: '/books/si/4' }
-     ],
-     '/books/yao/': [
+    '/books/si/': [
+        {text:"概述",link: '/books/si/' },
+        {text: '天人解',link: '/books/si/2' },
+        {text: '六气解',link: '/books/si/3' },
+        {text: '劳伤解',link: '/books/si/4' }
+    ],
+    '/books/yao/': [
         {text: '概述', link: '/books/yao/' },
         {
-        text: '脾胃部',
-        collapsed: true,
-        items: [{ text: '甘草', link: '/books/yao/1' },
+            text: '脾胃部',
+            collapsed: true,
+            items: [
+                { text: '甘草', link: '/books/yao/1' },
                 { text: '茯苓', link: '/books/yao/2' },
                 { text: '砂仁', link: '/books/yao/3' },
                 { text: '干姜', link: '/books/yao/4' },
@@ -23,11 +26,13 @@ export const list={
                 { text: '白术', link: '/books/yao/7' },
                 { text: '人参', link: '/books/yao/8' },
                 { text: '大黄', link: '/books/yao/9' }
-                ]
-            },{
-        text: '肝胆部',
-        collapsed: true,
-        items: [{ text: '桂枝', link: '/books/yao/10' },
+            ]
+        },
+        {
+            text: '肝胆部',
+            collapsed: true,
+            items: [
+                { text: '桂枝', link: '/books/yao/10' },
                 { text: '芍药', link: '/books/yao/11' },
                 { text: '柴胡', link: '/books/yao/12' },
                 { text: '丹皮', link: '/books/yao/13' },
@@ -37,9 +42,24 @@ export const list={
                 { text: '当归', link: '/books/yao/17' },
                 { text: '黄芩', link: '/books/yao/18' },
                 { text: '黄柏', link: '/books/yao/19' }
-                ]
-            }
+            ]
+        },
+        {
+            text:'肺部',
+            collapsed: true,
+            items:[
+                { text: '橘皮', link:'/books/yao/301'},
+                { text: '桔梗'},
+                { text: '杏仁'},
+                { text: '五味子'},
+                { text: '元参、贝母'},
+                { text: '黄芪'},
+                { text: '麦冬'},
+                { text: '生姜'}
+            ]
 
-     ]
+        }
+
+    ]
 
 };
