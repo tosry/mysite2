@@ -8,7 +8,7 @@ features:
     link: ./si/
   - icon: 📚
     title: 中药收藏
-    details: 个人收藏的中药，来自长沙药解和玉树药解，作者黄元御
+    details: 个人收藏的中药，来自长沙药解和玉楸药解，作者黄元御
     link: ./yao/
   - icon: 📚
     title: 黄帝内经
