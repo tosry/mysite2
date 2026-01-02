@@ -14,7 +14,6 @@ export default defineConfig({
   ],
 
   markdown: { lineNumbers: true },
-  mpa: true,
 
   sitemap: {
     hostname: 'https://www.tosry.cn',
@@ -23,9 +22,6 @@ export default defineConfig({
     return filteredItems;
     }
   },
-
-
-
   
   themeConfig: {
         logo: '/icon/logo.svg',
