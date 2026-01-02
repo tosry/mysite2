@@ -5,11 +5,6 @@ hero:
   text: '友情链接'
   tagline: 加入的网络大家庭
 
-  image:
-    src: /icon/logo.svg
-    alt: 背景
-
-
 features:
   - icon:
       src: https://www.ajinol.com/upload/logo.png
