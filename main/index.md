@@ -10,7 +10,7 @@ hero:
     alt: 背景
 
   actions:
-    - theme: brand
+    - theme: alt
       text: 个人页
       link: https://tosry.cn/
     - theme: alt
