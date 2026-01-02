@@ -16,9 +16,10 @@ main p{text-indent:2em;}
 main blockquote p { text-indent: 0; }
 .my-nav-block {
   display: flex;align-items: center;margin-bottom:20px;
-  background-color: #f8f9fa;padding: 10px 5px;
+  background-color: var(--vp-c-divider);
+  padding: 10px 5px;
 }
-.my-nav-block a{color: #007bff;}
+.my-nav-block a{color: var(--vp-c-brand-1)}
 footer p a img{display: inline-block;vertical-align:middle}
 @media (min-width: 640px) {
   :root {
