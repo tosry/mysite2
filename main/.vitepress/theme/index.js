@@ -7,7 +7,7 @@ export default {
     extends: DefaultTheme,
     Layout() {
         return h(DefaultTheme.Layout, null, {
-            'doc-top': () => h(MyLayout)
+            'doc-before': () => h(MyLayout)
         })
     }
 }
