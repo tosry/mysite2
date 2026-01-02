@@ -14,6 +14,7 @@ export default defineConfig({
   ],
 
   markdown: { lineNumbers: true },
+  mpa: true,
 
   sitemap: {
     hostname: 'https://www.tosry.cn',
