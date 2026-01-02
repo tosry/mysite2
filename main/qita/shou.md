@@ -5,6 +5,10 @@ hero:
   text: '收藏夹'
   tagline: 保存并访问有价值的内容
 
+  image:
+    src: /icon/logo.svg
+    alt: 背景
+
 features:
   - title: 道人家
     details: 中华道藏，道家经典，在线阅读
