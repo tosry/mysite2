@@ -4,7 +4,8 @@ export const list={
         { text: '上古天真论',link: '/books/su/1' },
         { text: '四气调神大论',link: '/books/su/2' },
         { text: '生气通天论',link: '/books/su/3' },
-        { text: '金匮真言论',link: '/books/su/4' }
+        { text: '金匮真言论',link: '/books/su/4' },
+        { text: '阴阳应象大论',link: '/books/su/5' }
     ],
     '/books/si/': [
         { text:"概述",link: '/books/si/' },
