@@ -5,10 +5,6 @@ hero:
   text: "时光绘梦集"
   tagline: 一个用vitepress制作的文档兼博客站点
 
-  image:
-    src: /icon/logo.svg
-    alt: 背景
-
   actions:
     - theme: alt
       text: 个人页
