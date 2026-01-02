@@ -1,6 +1,8 @@
 ---
 title: 书籍列表
 layout: home
+hero:
+  text: 书籍列表
 features:
   - icon: 📚
     title: 四圣心源
