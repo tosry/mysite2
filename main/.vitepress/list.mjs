@@ -57,9 +57,20 @@ export const list={
                 { text: '麦冬', link:'/books/yao/307'},
                 { text: '生姜', link:'/books/yao/308'}
             ]
-
+        },
+        {
+            text:'心肾部',
+            collapsed: true,
+            items:[
+                { text: '附子', link:'/books/yao/401'},
+                { text: '牡蛎', link:'/books/yao/402'},
+                { text: '泽泻、苁蓉、枸杞子', link:'/books/yao/403'},
+                { text: '猪苓', link:'/books/yao/404'},
+                { text: '龙骨', link:'/books/yao/405'},
+                { text: '黄连', link:'/books/yao/406'},
+                { text: '地黄', link:'/books/yao/407'}
+            ]
         }
-
     ]
 
 };
