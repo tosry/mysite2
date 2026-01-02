@@ -1,15 +1,16 @@
 export const list={
     '/books/su/': [
-        {text:"概述",link: '/books/su/' },
-        {text: '上古天真论',link: '/books/su/1' },
-        {text: '四气调神大论',link: '/books/su/2' },
-        {text: '生气通天论',link: '/books/su/3' }
+        { text:"概述",link: '/books/su/' },
+        { text: '上古天真论',link: '/books/su/1' },
+        { text: '四气调神大论',link: '/books/su/2' },
+        { text: '生气通天论',link: '/books/su/3' },
+        { text: '金匮真言论',link: '/books/su/4' }
     ],
     '/books/si/': [
-        {text:"概述",link: '/books/si/' },
-        {text: '天人解',link: '/books/si/2' },
-        {text: '六气解',link: '/books/si/3' },
-        {text: '劳伤解',link: '/books/si/4' }
+        { text:"概述",link: '/books/si/' },
+        { text: '天人解',link: '/books/si/2' },
+        { text: '六气解',link: '/books/si/3' },
+        { text: '劳伤解',link: '/books/si/4' }
     ],
     '/books/yao/': [
         {text: '概述', link: '/books/yao/' },
