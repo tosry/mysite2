@@ -49,13 +49,13 @@ export const list={
             collapsed: true,
             items:[
                 { text: '橘皮', link:'/books/yao/301'},
-                { text: '桔梗'},
-                { text: '杏仁'},
-                { text: '五味子'},
-                { text: '元参、贝母'},
-                { text: '黄芪'},
-                { text: '麦冬'},
-                { text: '生姜'}
+                { text: '桔梗', link:'/books/yao/302'},
+                { text: '杏仁', link:'/books/yao/303'},
+                { text: '五味子', link:'/books/yao/304'},
+                { text: '元参、贝母', link:'/books/yao/305'},
+                { text: '黄芪', link:'/books/yao/306'},
+                { text: '麦冬', link:'/books/yao/307'},
+                { text: '生姜', link:'/books/yao/308'}
             ]
 
         }
