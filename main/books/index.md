@@ -15,5 +15,5 @@ features:
   - icon: 📚
     title: 黄帝内经
     details: 中医四大名著，最早的医学著作
-    link: ./yao/
+    link: ./su/
 ---
