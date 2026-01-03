@@ -13,7 +13,7 @@ hero:
 features:
   - icon: 📚
     title: 书籍
-    details: 个人收藏的中医方面的内容
+    details: 我收藏的中医方面的内容
     link: /books/
   - icon: 📕
     title: 文章
