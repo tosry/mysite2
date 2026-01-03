@@ -9,12 +9,13 @@ export const list={
     ],
     '/books/si/': [
         { text:"概述",link: '/books/si/' },
-        { text: '天人解',link: '/books/si/2' },
-        { text: '六气解',link: '/books/si/3' },
-        { text: '劳伤解',link: '/books/si/4' },
-        { text: '杂病解上',link: '/books/si/5' },
-        { text: '杂病解中',link: '/books/si/6' },
-        { text: '杂病解下',link: '/books/si/7' }
+        { text: '卷一·天人解',link: '/books/si/2' },
+        { text: '卷二·六气解',link: '/books/si/3' },
+        { text: '卷三·脉法解',link: '/books/si/1' },
+        { text: '卷四·劳伤解',link: '/books/si/4' },
+        { text: '卷五·杂病解上',link: '/books/si/5' },
+        { text: '卷六·杂病解中',link: '/books/si/6' },
+        { text: '卷七·杂病解下',link: '/books/si/7' }
     ],
     '/books/yao/': [
         {text: '概述', link: '/books/yao/' },
