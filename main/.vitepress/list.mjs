@@ -11,7 +11,8 @@ export const list={
         { text:"概述",link: '/books/si/' },
         { text: '天人解',link: '/books/si/2' },
         { text: '六气解',link: '/books/si/3' },
-        { text: '劳伤解',link: '/books/si/4' }
+        { text: '劳伤解',link: '/books/si/4' },
+        { text: '杂病解上',link: '/books/si/5' }
     ],
     '/books/yao/': [
         {text: '概述', link: '/books/yao/' },
