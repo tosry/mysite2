@@ -13,7 +13,8 @@ export const list={
         { text: '六气解',link: '/books/si/3' },
         { text: '劳伤解',link: '/books/si/4' },
         { text: '杂病解上',link: '/books/si/5' },
-        { text: '杂病解中',link: '/books/si/6' }
+        { text: '杂病解中',link: '/books/si/6' },
+        { text: '杂病解下',link: '/books/si/7' }
     ],
     '/books/yao/': [
         {text: '概述', link: '/books/yao/' },
