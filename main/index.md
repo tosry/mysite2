@@ -3,7 +3,7 @@ title: 首页
 layout: home
 hero:
   text: "时光绘梦集"
-  tagline: 一个个人的文档兼博客站点
+  tagline: 时光匆匆的划过，就像是一场梦
   
   image:
     src: /icon/logo.svg
