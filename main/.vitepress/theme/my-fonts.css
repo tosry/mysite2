@@ -13,7 +13,7 @@
 main p{ text-indent: 2em;}
 main blockquote p { text-indent: 0; }
 .my-nav-block {
-  display: flex;align-items: center;margin-bottom:20px;
+  display: flex;align-items: center;margin-bottom:20px;font-size: 0.9em;
   background-color: var(--vp-c-default-1);padding: 9px;border-radius: 5px;
 }
 .my-nav-block a{color: var(--vp-c-brand-1)}
