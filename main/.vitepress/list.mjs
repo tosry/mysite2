@@ -15,7 +15,8 @@ export const list={
         { text: '卷四·劳伤解',link: '/books/si/4' },
         { text: '卷五·杂病解上',link: '/books/si/5' },
         { text: '卷六·杂病解中',link: '/books/si/6' },
-        { text: '卷七·杂病解下',link: '/books/si/7' }
+        { text: '卷七·杂病解下',link: '/books/si/7' },
+        { text: '卷八·七窍解',link: '/books/si/8' }
     ],
     '/books/yao/': [
         {text: '概述', link: '/books/yao/' },
