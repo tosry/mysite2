@@ -9,14 +9,6 @@ hero:
     src: /icon/logo.svg
     alt: 背景
 
-  actions:
-    - theme: alt
-      text: 个人页
-      link: https://tosry.cn/
-    - theme: alt
-      text: 关于页
-      link: /qita/
-
 
 features:
   - icon: 📚
