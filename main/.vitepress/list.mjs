@@ -60,7 +60,8 @@ export const list={
                 { text: '元参、贝母', link:'/books/yao/305'},
                 { text: '黄芪', link:'/books/yao/306'},
                 { text: '麦冬', link:'/books/yao/307'},
-                { text: '生姜', link:'/books/yao/308'}
+                { text: '生姜', link:'/books/yao/308'},
+                { text: '细辛', link: '/books/yao/309'}
             ]
         },
         {
@@ -69,7 +70,7 @@ export const list={
             items:[
                 { text: '附子', link:'/books/yao/401'},
                 { text: '牡蛎', link:'/books/yao/402'},
-                { text: '泽泻、苁蓉、枸杞子', link:'/books/yao/403'},
+                { text: '泽泻、苁蓉、枸杞子、菟丝子', link:'/books/yao/403'},
                 { text: '猪苓', link:'/books/yao/404'},
                 { text: '龙骨', link:'/books/yao/405'},
                 { text: '黄连', link:'/books/yao/406'},
