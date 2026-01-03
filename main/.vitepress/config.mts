@@ -27,8 +27,9 @@ export default defineConfig({
         logo: '/icon/logo.svg',
 
         nav: [
-          { text: '友情链接', link: '/qita/links' },
-          { text: '收藏夹', link: '/qita/shou' }
+          { text: '友链', link: '/qita/links' },
+          { text: '收藏', link: '/qita/shou' },
+          { text: '关于', link: '/qita/' }
         ],
 
         footer: {
