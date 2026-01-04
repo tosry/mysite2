@@ -7,8 +7,7 @@ export default defineConfig({
   description: '这是一个用来记录生活和编程中遇到的经历和感悟，以及偶尔收藏一些中医方面内容的个人站点。',
 
   head: [
-    ['link', { rel: 'bookmark', type: 'image/x-icon', href: '/icon/logo.svg' }],
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/icon/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg', href: '/icon/logo.svg' }],
     ['meta', { name: 'keywords', content: '生活,代码,编程,中医,健康,养生,博客,笔记' }],
     ['meta', { name: 'author', content: '夏夜万年' }]
   ],
