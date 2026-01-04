@@ -4,7 +4,7 @@ import { list } from './list.mjs';
 export default defineConfig({
   lang: 'zh-CN',
   title: '时光绘梦集',
-  description: '这是一个用来记录生活和编程中遇到的经历和感悟，以及偶尔收藏一些中医方面内容的个人站点。',
+  description: '一个用来记录生活和编程中遇到的经历和感悟的站点，还会收藏一些中医方面的内容。',
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg', href: '/icon/logo.svg' }],
