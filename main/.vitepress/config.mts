@@ -24,7 +24,6 @@ export default defineConfig({
   
   themeConfig: {
         logo: '/icon/logo.svg',
-        icon: '/icon/logo.svg',
 
         nav: [
           { text: '友链', link: '/qita/links' },
