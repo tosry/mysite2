@@ -13,6 +13,7 @@ export default defineConfig({
   ],
 
   markdown: { lineNumbers: true },
+  metaChunk: true,
 
   sitemap: {
     hostname: 'https://www.tosry.cn',
