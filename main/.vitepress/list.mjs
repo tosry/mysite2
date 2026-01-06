@@ -16,7 +16,9 @@ export const list={
         { text: '卷五·杂病解上',link: '/books/si/5' },
         { text: '卷六·杂病解中',link: '/books/si/6' },
         { text: '卷七·杂病解下',link: '/books/si/7' },
-        { text: '卷八·七窍解',link: '/books/si/8' }
+        { text: '卷八·七窍解',link: '/books/si/8' },
+        { text: '卷九·疮疡解',link: '/books/si/9' },
+        { text: '卷十·妇人解',link: '/books/si/0' }
     ],
     '/books/yao/': [
         {text: '概述', link: '/books/yao/' },
