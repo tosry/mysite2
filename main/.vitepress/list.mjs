@@ -5,7 +5,17 @@ export const list={
         { text: '四气调神大论',link: '/books/su/2' },
         { text: '生气通天论',link: '/books/su/3' },
         { text: '金匮真言论',link: '/books/su/4' },
-        { text: '阴阳应象大论',link: '/books/su/5' }
+        { text: '阴阳应象大论',link: '/books/su/5' },
+        { text: '阴阳离合论',link: '/books/su/6' },
+        { text: '阴阳别论篇',link: '/books/su/7' }
+    ],
+    '/books/wai/':[
+        { text: '概述',link: '/books/wai/' },
+        { text: '阴阳颠倒篇',link: '/books/wai/1' },
+        { text: '顺逆探原篇',link: '/books/wai/2' },
+        { text: '回天生育篇',link: '/books/wai/3' },
+        { text: '天人寿夭篇',link: '/books/wai/4' },
+        { text: '命根养生篇',link: '/books/wai/5' }
     ],
     '/books/si/': [
         { text:"概述",link: '/books/si/' },
