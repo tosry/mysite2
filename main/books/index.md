@@ -19,6 +19,6 @@ features:
   
   - icon: 📚
     title: 外经微言
-    details: 中医四大名著，最早的医学著作
+    details: 作者陈士铎，据说是失传已久的黄帝外经
     link: ./wai/
 ---
