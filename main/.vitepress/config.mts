@@ -19,7 +19,7 @@ export default defineConfig({
         logo: '/icon/logo.svg',
 
         nav: [
-          { text: 'cf', link: 'https://dash.cloudflare.com/' },
+          { text: 'cloudf', link: 'https://dash.cloudflare.com/' },
           { text: 'domain', link: 'https://dash.domain.digitalplat.org/' }
         ],
 
