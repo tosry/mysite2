@@ -1,6 +1,0 @@
-branch:
-    - buttons:
-        - name: 部署
-          description: 部署到站点
-          event: web_trigger
-          isDefault: true
