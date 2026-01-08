@@ -19,7 +19,8 @@ export default defineConfig({
         logo: '/icon/logo.svg',
 
         nav: [
-          { text: '关于', link: '/qita/' }
+          { text: 'cf', link: 'https://dash.cloudflare.com/' },
+          { text: 'domain', link: 'https://dash.domain.digitalplat.org/' }
         ],
 
         footer: {
